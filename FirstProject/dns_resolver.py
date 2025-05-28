@@ -68,5 +68,6 @@ async def main():
                 f.write(" - No records found\n")
     print(f"\nResults have been logged to {log_file}")
 
+#Main Func
 if __name__ == "__main__":
     asyncio.run(main())
